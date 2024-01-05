@@ -11,8 +11,8 @@ CARD_WIDTH_MM=69 # mm
 CARD_HEIGHT_MM=94 # mm
 
 # Desired margin around the content on the printed cards.
-# A margin of 2.5 mm means that the content will overhang by 0.5 mm on each side.
-SIDE_MARGIN_MM=2.5 # mm
+# A margin of 2.25 mm means that the content will overhang by 0.75 mm on each side.
+SIDE_MARGIN_MM=2.25 # mm
 
 # Calculate margins in pixels.
 SIDE_MARGIN=$(printf "%.0f" "$(bc -l <<< "$CONTENT_WIDTH*$SIDE_MARGIN_MM/$CARD_WIDTH_MM")") # px
