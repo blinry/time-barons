@@ -1,3 +1,0 @@
-These scripts create print files for the card game https://www.time-barons.com, suitable to print them at https://www.meinspiel.de.
-
-To create the print files, it should be enough to run `make`. You'll need ImageMagick and pdfjam.
